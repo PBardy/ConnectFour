@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ConnectFour</title>
+
+  <link rel="stylesheet" href="./public/css/animations.css">
+  <link rel="stylesheet" href="./public/css/main.css">
+  <link rel="stylesheet" href="./public/css/app.css">
+  <link rel="stylesheet" href="./public/css/fonts.css">
+  <link rel="stylesheet" href="./public/css/media.css">
+
+  <script src="./public/js/main.js"></script>
+  <script src="./public/js/app.js" type="module" defer></script>
+
+</head>
+
+<body>
+  <div class="App Vbox Center">
+    <div class="Vbox">
+      <div class="Hbox js" id="ScoreboardContainer">
+        <div class="Hbox Expand Center">
+          <div class="Hbox Center Turn js" id="PlayerOneTurn">
+            <span>Wins!</span>
+          </div> 
+          <div class="Hbox Center Turn Turn--Focussed js" id="PlayerTwoTurn">
+            <span>Wins!</span>
+          </div> 
+        </div>
+      </div>
+      <div class="js" id="GameContainer"></div>
+    </div>
+  </div>
+</body>
+
+</html>
